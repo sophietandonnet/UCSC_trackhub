@@ -5,59 +5,44 @@ shortLabel ATAC-seq
 longLabel ATAC-seq (ESCs and 2CLCs)
 visibility full
 
-# ESC overlay track (parent: ATACseq)
-track ESC_overlay
+# ESC replicates (parent: ATACseq)
+track ESC_rep1
 parent ATACseq
+bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4835nnn/GSM4835957/suppl/GSM4835957_ESC-ATAC-rep1.bw
+shortLabel ESC rep1
+longLabel ESC ATAC-seq replicate 1
 type bigWig
-shortLabel ESC ATAC (overlay)
-longLabel ESC ATAC-seq (overlayed replicates)
-container multiWig
-aggregate overlay
-showSubtrackColorOnUi on
+color 0,0,255
 visibility full
-html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/refs/heads/main/ESC_overlay.html
+html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/refs/heads/main/ESC_rep1.html
 
-    track ESC_rep1
-    parent ESC_overlay
-    bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4835nnn/GSM4835957/suppl/GSM4835957_ESC-ATAC-rep1.bw
-    shortLabel ESC rep1
-    color 0,0,255
-    type bigWig
-    html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/refs/heads/main/ESC_rep1.html
-    
-
-    track ESC_rep2
-    parent ESC_overlay
-    bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4835nnn/GSM4835958/suppl/GSM4835958_ESC-ATAC-rep2.bw
-    shortLabel ESC rep2
-    color 100,100,255
-    type bigWig
-    html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/refs/heads/main/ESC_rep2.html
-
-# 2CLC overlay track (parent: ATACseq)
-track C2LC_overlay
+track ESC_rep2
 parent ATACseq
+bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4835nnn/GSM4835958/suppl/GSM4835958_ESC-ATAC-rep2.bw
+shortLabel ESC rep2
+longLabel ESC ATAC-seq replicate 2
 type bigWig
-shortLabel 2CLC ATAC (overlay)
-longLabel 2CLC ATAC-seq (overlayed replicates)
-container multiWig
-aggregate overlay
-showSubtrackColorOnUi on
+color 100,100,255
 visibility full
-html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/refs/heads/main/C2LC_overlay.html
+html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/refs/heads/main/ESC_rep2.html
 
-    track C2LC_rep1
-    parent C2LC_overlay
-    bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4835nnn/GSM4835959/suppl/GSM4835959_2CLC-ATAC-rep1.bw
-    shortLabel 2CLC rep1
-    color 255,0,0
-    type bigWig
-    html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/refs/heads/main/C2LC_rep1.html
+# 2CLC replicates (parent: ATACseq)
+track C2LC_rep1
+parent ATACseq
+bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4835nnn/GSM4835959/suppl/GSM4835959_2CLC-ATAC-rep1.bw
+shortLabel 2CLC rep1
+longLabel 2CLC ATAC-seq replicate 1
+type bigWig
+color 255,0,0
+visibility full
+html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/refs/heads/main/C2LC_rep1.html
 
-    track C2LC_rep2
-    parent C2LC_overlay
-    bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4835nnn/GSM4835960/suppl/GSM4835960_2CLC-ATAC-rep2.bw
-    shortLabel 2CLC rep2
-    color 255,100,100
-    type bigWig
-    html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/refs/heads/main/C2LC_rep2.html
+track C2LC_rep2
+parent ATACseq
+bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4835nnn/GSM4835960/suppl/GSM4835960_2CLC-ATAC-rep2.bw
+shortLabel 2CLC rep2
+longLabel 2CLC ATAC-seq replicate 2
+type bigWig
+color 255,100,100
+visibility full
+html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/refs/heads/main/C2LC_rep2.html
