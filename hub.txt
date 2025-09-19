@@ -3,3 +3,4 @@ shortLabel ATAC-seq Hub
 longLabel ATAC-seq public data for ESCs and 2CLCs
 genomesFile genomes.txt
 email sophie.tandonnet@ub.edu
+descriptionUrl https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/main/hub_description.html
