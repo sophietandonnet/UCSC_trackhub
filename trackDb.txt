@@ -23,6 +23,7 @@ html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/main/ESC_ov
     shortLabel ESC rep1
     color 0,0,255
     type bigWig
+    html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/main/ESC_rep1.html
 
     track ESC_rep2
     parent ESC_overlay
@@ -30,6 +31,7 @@ html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/main/ESC_ov
     shortLabel ESC rep2
     color 100,100,255
     type bigWig
+    html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/main/ESC_rep2.html
 
 # 2CLC overlay track (parent: ATACseq)
 track C2LC_overlay
@@ -41,6 +43,7 @@ container multiWig
 aggregate overlay
 showSubtrackColorOnUi on
 visibility full
+https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/main/2CLC_overlay.html
 
     track C2LC_rep1
     parent C2LC_overlay
@@ -48,6 +51,7 @@ visibility full
     shortLabel 2CLC rep1
     color 255,0,0
     type bigWig
+    html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/main/2CLC_rep1.html
 
     track C2LC_rep2
     parent C2LC_overlay
@@ -55,3 +59,4 @@ visibility full
     shortLabel 2CLC rep2
     color 255,100,100
     type bigWig
+    html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/main/2CLC_rep2.html
