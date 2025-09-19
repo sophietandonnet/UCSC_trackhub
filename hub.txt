@@ -1,0 +1,5 @@
+hub ATACseqHub
+shortLabel ATAC-seq Hub
+longLabel ATAC-seq public data for ESCs and 2CLCs
+genomesFile genomes.txt
+email sophie.tandonnet@ub.edu
