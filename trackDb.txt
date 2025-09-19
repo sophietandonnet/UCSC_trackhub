@@ -15,6 +15,7 @@ container multiWig
 aggregate overlay
 showSubtrackColorOnUi on
 visibility full
+html https://raw.githubusercontent.com/sophietandonnet/UCSC_trackhub/main/ESC_overlay.html
 
     track ESC_rep1
     parent ESC_overlay
